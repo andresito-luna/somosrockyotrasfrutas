@@ -45,6 +45,56 @@ img:hover {
   border-radius: 20px;
 }
 
+.audio-player {
+  background: var(--color1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.audio-player audio {
+  width: 90%;
+}
+
+.audio-player img {
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.audio-buttons button {
+  background: var(--color3);
+  border: none;
+  color: var(--color4);
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.audio-buttons button:hover {
+  background: var(--color2);
+}
+
+.audio-buttons img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+/* 
 .audio_articulo {
   padding: 5px;
   position: relative;
@@ -58,7 +108,35 @@ img:hover {
   border-radius: 10px;
 }
 
-/*  PEGAR ACÁ
+.audio-player {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 300px;
+}
+
+.audio-buttons button {
+  background: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.audio-buttons button:hover {
+  background: #2980b9;
+}
+
+
+   PEGAR ACÁ
 
   filter: blur(5px);
   -webkit-filter: blur(5px);
